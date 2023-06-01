@@ -1,1 +1,2 @@
 # C0VM
+This is an implementation of a virtual machine for C0, which is a safer subset of the C programming language created and used at Carnegie Mellon University. The VM operates as a stack, similar to the JVM, and processes instructions as an array of unsigned bytes. It can process over 40 instructions including saving and loading constants, local variables, calling assertions and errors, control flow, function calls and returns, native function calls, and memory allocation, loading, and storage. Much care was taken to ensure safety and prevent memory leaks.
